@@ -1,0 +1,164 @@
+{
+"questions": [
+    {
+        "id": 1,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What is Python?",
+        "answer": "Python is a high-level, interpreted programming language known for its simplicity and readability. It emphasizes code readability and has a large standard library.",
+        "mark": 2,
+        "difficulty_level": "Easy"
+    },
+    {
+        "id": 2,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "How do you check the type of a variable in Python?",
+        "answer": "You can use the type() function to check the type of a variable in Python. For example, type(5) will return <class 'int'>, indicating that the variable is of type 'int'.",
+        "mark": 2,
+        "difficulty_level": "Easy"
+    },
+    {
+        "id": 3,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What is the purpose of the __init__ method in Python classes?",
+        "answer": "The __init__ method is a special method in Python classes that is automatically called when a new instance of the class is created. It is used to initialize the attributes of the object.",
+        "mark": 2,
+        "difficulty_level": "Easy"
+    },
+    {
+        "id": 4,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What is the difference between append() and extend() methods in Python lists?",
+        "answer": "The append() method is used to add a single element to the end of a list, while the extend() method is used to add multiple elements from an iterable to the end of a list.",
+        "mark": 2,
+        "difficulty_level": "Easy"
+    },
+    {
+        "id": 5,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What is a lambda function in Python?",
+        "answer": "A lambda function is an anonymous function defined using the lambda keyword. It is a small, single-expression function that can take any number of arguments but can only have one expression.",
+        "mark": 2,
+        "difficulty_level": "Easy"
+    },
+    {
+        "id": 6,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What are the different types of operators in Python?",
+        "answer": "Python has six types of operators: Arithmetic operators, Assignment operators, Comparison operators, Logical operators, Bitwise operators, and Membership operators.",
+        "mark": 2,
+        "difficulty_level": "Easy"
+    },
+    {
+        "id": 7,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What is a tuple in Python?",
+        "answer": "A tuple is an immutable sequence of elements, enclosed in parentheses. Tuples are similar to lists but cannot be modified once created.",
+        "mark": 2,
+        "difficulty_level": "Easy"
+    },
+    {
+        "id": 8,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "How do you handle exceptions in Python?",
+        "answer": "Exceptions in Python can be handled using a try-except block. The code that might raise an exception is placed in the try block, and if an exception occurs, the code in the except block is executed.",
+        "mark": 2,
+        "difficulty_level": "Easy"
+    },
+    {
+        "id": 9,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What are the benefits of using Python?",
+        "answer": "Benefits of Python include simplicity, readability, cross-platform compatibility, extensive standard library, and support for both procedural and object-oriented programming paradigms.",
+        "mark": 2,
+        "difficulty_level": "Easy"
+    },
+    {
+        "id": 10,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What is the difference between append(), insert(), and extend() methods in Python lists?",
+        "answer": "The append() method is used to add an element to the end of a list. The insert() method is used to insert an element at a specific index in a list. The extend() method is used to add multiple elements, such as another list, to the end of a list.",
+        "mark": 2,
+        "difficulty_level": "Easy"
+    },
+    {
+        "id": 11,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What is the purpose of the _name_ variable in Python?",
+        "answer": "The _name_ variable is a special variable in Python that holds the name of the current module or script. When a module is imported, _name_ is set to the module's name. When a script is executed directly, _name_ is set to \"__main__\".",
+        "mark": 2,
+        "difficulty_level": "Medium"
+    },
+    {
+        "id": 12,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What is the purpose of the __init__ method in a Python class?",
+        "answer": "The __init__ method is a special method used to initialize an object of a class and perform any necessary setup or initialization tasks.",
+        "mark": 2,
+        "difficulty_level": "Medium"
+    },
+    {
+        "id": 13,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What is method overloading in Python?",
+        "answer": "Method overloading refers to the ability to define multiple methods with the same name but different parameters in a class, allowing for different behaviors based on the arguments.",
+        "mark": 2,
+        "difficulty_level": "Medium"
+    },
+    {
+        "id": 14,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What is method overriding in Python?",
+        "answer": "Method overriding is the ability to provide a different implementation of a method in a subclass that is already defined in its parent class, allowing for customized behavior.",
+        "mark": 2,
+        "difficulty_level": "Medium"
+    },
+    {
+        "id": 15,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What is the purpose of the self parameter in Python class methods and instance methods?",
+        "answer": "The self parameter refers to the instance of the class on which the method is called, allowing access to the instance's attributes and methods within the method.",
+        "mark": 2,
+        "difficulty_level": "Medium"
+    },
+    {
+        "id": 16,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "Explain the Global Interpreter Lock (GIL) in Python.",
+        "answer": "The GIL is a mechanism in CPython that allows only one thread to execute Python bytecode at a time, limiting the parallel execution of threads.",
+        "mark": 2,
+        "difficulty_level": "Hard"
+    },
+    {
+        "id": 17,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "Explain the difference between shallow copy and deep copy in Python.",
+        "answer": "Shallow copy creates a new object with references to the original object's elements, while deep copy creates a completely independent object with its own copies of the original object's elements.",
+        "mark": 2,
+        "difficulty_level": "Hard"
+    },
+    {
+        "id": 18,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "Explain the difference between the return statement and the yield statement in Python functions.",
+        "answer": "The return statement is used to return a value and terminate the function, while the yield statement is used to create a generator and allows the function to produce multiple values.",
+        "mark": 2,
+        "difficulty_level": "Hard"
+    },
+    {
+        "id": 19,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "How do you run a Flask application?",
+        "answer": "To run a Flask application, you need to call the run() method on the Flask instance. By default, the application will run on localhost at port 5000.",
+        "mark": 2,
+        "difficulty_level": "Hard"
+    },
+    {
+        "id": 20,
+        "type": "ANSWER THE FOLLOWING QUESTIONS(2MARK)",
+        "question": "What are the differences between SET and DICTIONARY in Python?",
+        "answer": "Set: A set is an unordered collection of unique elements. It is defined using curly braces {} or the set() function. Elements in a set are not indexed and do not have associated values. Sets are commonly used for membership testing and eliminating duplicate entries from a list.\nDictionary: A dictionary is an unordered collection of key-value pairs. It is defined using curly braces {} and each key-value pair is separated by a colon (:). Elements in a dictionary are indexed by unique keys, and each key is associated with a value. Dictionaries are commonly used for efficient lookup and retrieval of values based on a specific key.",
+        "mark": 2,
+        "difficulty_level": "Hard"
+    }
+]
+}

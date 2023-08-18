@@ -1,0 +1,364 @@
+{
+"questions": [
+    {
+        "id": 1,
+        "type": "choose the best answer",
+        "question": "Which of the following is the correct way to comment a single line in Python?",
+        "options": [
+            "'This is a comment'",
+            "// This is a comment",
+            "# This is a comment",
+            "<This is a comment>"
+        ],
+        "answer": "c) # This is a comment"
+    },
+    {
+        "id": 2,
+        "type": "choose the best answer",
+        "question": "Which of the following is the correct way to declare a variable in Python?",
+        "options": [
+            "var x = 5",
+            "x = 5",
+            "int x = 5",
+            "declare x = 5"
+        ],
+        "answer": "b) x = 5"
+    },
+    {
+        "id": 3,
+        "type": "choose the best answer",
+        "question": "In Python, which keyword is used to define a function?",
+        "options": [
+            "define",
+            "function",
+            "def",
+            "fun"
+        ],
+        "answer": "c) def"
+    },
+    {
+        "id": 4,
+        "type": "choose the best answer",
+        "question": "Which of the following is used to calculate the length of a list in Python?",
+        "options": [
+            "len()",
+            "length()",
+            "size()",
+            "count()"
+        ],
+        "answer": "a) len()"
+    },
+    {
+        "id": 5,
+        "type": "choose the best answer",
+        "question": "What does the 'range()' function in Python return?",
+        "options": [
+            "A list of numbers",
+            "A tuple of numbers",
+            "A dictionary of numbers",
+            "An iterator of numbers"
+        ],
+        "answer": "d) An iterator of numbers"
+    },
+    {
+        "id": 6,
+        "type": "choose the best answer",
+        "question": "Which of the following is NOT a valid method to open a file in Python?",
+        "options": [
+            "a) open()",
+            "b) read()",
+            "c) write()",
+            "d) create()"
+        ],
+        "answer": "d) create()"
+    },
+    {
+        "id": 7,
+        "type": "choose the best answer",
+        "question": "What is the correct way to import the 'math' module in Python?",
+        "options": [
+            "a) import math",
+            "b) include math",
+            "c) require math",
+            "d) load math"
+        ],
+        "answer": "a) import math"
+    },
+    {
+        "id": 8,
+        "type": "choose the best answer",
+        "question": "In Python, which statement is used to exit from a loop?",
+        "options": [
+            "a) exit",
+            "b) stop",
+            "c) break",
+            "d) continue"
+        ],
+        "answer": "c) break"
+    },
+    {
+        "id": 9,
+        "type": "choose the best answer",
+        "question": "Which of the following is the correct way to check if two strings are equal in Python?",
+        "options": [
+            "a) str1 == str2",
+            "b) str1 = str2",
+            "c) str1.equals(str2)",
+            "d) equals(str1, str2)"
+        ],
+        "answer": "a) str1 == str2"
+    },
+    {
+        "id": 10,
+        "type": "choose the best answer",
+        "question": "In Python, which function is used to convert a string to an integer?",
+        "options": [
+            "a) toInt()",
+            "b) parse()",
+            "c) int()",
+            "d) convert()"
+        ],
+        "answer": "c) int()"
+    },
+    {
+        "id": 11,
+        "type": "choose the best answer",
+        "question": "In Python, which function is used to read a line from the standard input?",
+        "options": [
+            "a) input()",
+            "b) read()",
+            "c) get()",
+            "d) readLine()"
+        ],
+        "answer": "a) input()"
+    },
+    {
+        "id": 12,
+        "type": "choose the best answer",
+        "question": "In Python, which module is used to work with dates and times?",
+        "options": [
+            "a) datetime",
+            "b) time",
+            "c) date",
+            "d) calendar"
+        ],
+        "answer": "a) datetime"
+    },
+    {
+        "id": 13,
+        "type": "choose the best answer",
+        "question": "In Python, which statement is used to define a block of code?",
+        "options": [
+            "a) block",
+            "b) code",
+            "c) start",
+            "d) indent"
+        ],
+        "answer": "d) indent"
+    },
+    {
+        "id": 14,
+        "type": "choose the best answer",
+        "question": "In Python, which function is used to remove the last element from a list?",
+        "options": [
+            "a) remove()",
+            "b) delete()",
+            "c) pop()",
+            "d) clear()"
+        ],
+        "answer": "c) pop()"
+    },
+    {
+        "id": 15,
+        "type": "choose the best answer",
+        "question": "Which of the following is the correct way to define a dictionary in Python?",
+        "options": [
+            "a) {1: 'one', 2: 'two'}",
+            "b) [1: 'one', 2: 'two']",
+            "c) (1: 'one', 2: 'two')",
+            "d) <1: 'one', 2: 'two'>"
+        ],
+        "answer": "a) {1: 'one', 2: 'two'}"
+    },
+    {
+        "id": 16,
+        "type": "choose the best answer",
+        "question": "In Python, which function is used to print formatted output?",
+        "options": [
+            "a) format()",
+            "b) printf()",
+            "c) print()",
+            "d) println()"
+        ],
+        "answer": "c) print()"
+    },
+    {
+        "id": 17,
+        "type": "choose the best answer",
+        "question": "Which of the following is NOT a data type in Python?",
+        "options": [
+            "a) int",
+            "b) str",
+            "c) bool",
+            "d) float"
+        ],
+        "answer": "d) float"
+    },
+    {
+        "id": 18,
+        "type": "choose the best answer",
+        "question": "Which of the following is NOT a valid variable name in Python?",
+        "options": [
+            "a) my_variable",
+            "b) _variable",
+            "c) 1variable",
+            "d) variable2"
+        ],
+        "answer": "c) 1variable"
+    },
+    {
+        "id": 19,
+        "type": "choose the best answer",
+        "question": "How do you convert a string to uppercase in Python?",
+        "options": [
+            "a) str.upper()",
+            "b) str.lower()",
+            "c) str.capitalize()",
+            "d) str.swapcase()"
+        ],
+        "answer": "a) str.upper()"
+    },
+    {
+        "id": 20,
+        "type": "choose the best answer",
+        "question": "Which of the following operators is used for exponentiation in Python?",
+        "options": [
+            "a) ^",
+            "b) *^",
+            "c) ^*",
+            "d) **"
+        ],
+        "answer": "d) **"
+    },
+    {
+        "id": 21,
+        "type": "choose the best answer",
+        "question": "In Python, how do you check if two variables refer to the same object?",
+        "options": [
+            "a) using the is keyword",
+            "b) using the == operator",
+            "c) using the === operator",
+            "d) using the equal() method"
+        ],
+        "answer": "a) using the is keyword"
+    },
+    {
+        "id": 22,
+        "type": "choose the best answer",
+        "question": "Which function is used to get the length of a string in Python?",
+        "options": [
+            "a) str.length()",
+            "b) str.count()",
+            "c) len()",
+            "d) size()"
+        ],
+        "answer": "c) len()"
+    },
+    {
+        "id": 23,
+        "type": "choose the best answer",
+        "question": "In Python, how do you remove an element from a list?",
+        "options": [
+            "a) list.remove(element)",
+            "b) list.pop()",
+            "c) del list[index]",
+            "d) All of the above"
+        ],
+        "answer": "d) All of the above"
+    },
+    {
+        "id": 24,
+        "type": "choose the best answer",
+        "question": "In Python, how do you check if a key exists in a dictionary?",
+        "options": [
+            "a) using the exists() method",
+            "b) using the check() function",
+            "c) using the in keyword",
+            "d) using the has_key() function"
+        ],
+        "answer": "c) using the in keyword"
+    },
+    {
+        "id": 25,
+        "type": "choose the best answer",
+        "question": "In Python, how do you open a file for reading?",
+        "options": [
+            "a) open(\"filename.txt\", \"r\")",
+            "b) open(\"filename.txt\", \"w\")",
+            "c) open(\"filename.txt\", \"a\")",
+            "d) open(\"filename.txt\", \"x\")"
+        ],
+        "answer": "a) open(\"filename.txt\", \"r\")"
+    },
+    {
+        "id": 26,
+        "type": "choose the best answer",
+        "question": "What is the maximum length of a Python identifier?",
+        "options": [
+            "a) 32 characters",
+            "b) 64 characters",
+            "c) 128 characters",
+            "d) No limit"
+        ],
+        "answer": "d) No limit"
+    },
+    {
+        "id": 27,
+        "type": "choose the best answer",
+        "question": "What is the difference between a list and a tuple in Python?",
+        "options": [
+            "a) A list is mutable, while a tuple is immutable.",
+            "b) A list is ordered, while a tuple is unordered.",
+            "c) A list can contain any type of object, while a tuple can only contain immutable objects.",
+            "d) All of the above."
+        ],
+        "answer": "d) All of the above."
+    },
+    {
+        "id": 28,
+        "type": "choose the best answer",
+        "question": "Is Python case sensitive when dealing with identifiers?",
+        "options": [
+            "a) no",
+            "b) yes",
+            "c) machine dependent",
+            "d) none of the mentioned"
+        ],
+        "answer": "b) yes"
+    },
+    {
+        "id": 29,
+        "type": "choose the best answer",
+        "question": "Which of the following is the correct extension of the Python file?",
+        "options": [
+            "a) .python",
+            "b) .pl",
+            "c) .py",
+            "d) .p"
+        ],
+        "answer": "c) .py"
+    },
+    {
+        "id": 30,
+        "type": "choose the best answer",
+        "question": "Which of the following is used to define a block of code in Python language?",
+        "options": [
+            "a) Indentation",
+            "b) Key",
+            "c) Brackets",
+            "d) All of the mentioned"
+        ],
+        "answer": "a) Indentation"
+    }
+]
+}
